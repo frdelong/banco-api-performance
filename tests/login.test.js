@@ -33,8 +33,8 @@ export default function () {
   // Prepare the login payload with username and password.
   // JSON.stringify converts the JavaScript object into a JSON string for the HTTP request body.
   
-  postLogin.username = "junior.lima"
-  console.log(postLogin)
+  // postLogin.username = "junior.lima"
+  // console.log(postLogin)
   const payload = JSON.stringify(postLogin)
 
   // Set the request headers. 'Content-Type: application/json' tells the server to expect a JSON-formatted body.
